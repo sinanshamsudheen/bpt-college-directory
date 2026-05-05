@@ -17,6 +17,13 @@ interface College {
   value_prop: string;
 }
 
+const getFeeDisplay = (fee: any) => {
+  if (typeof fee === "object" && fee !== null) {
+    return fee.tuition_fee_per_year || Object.values(fee)[0] || "N/A";
+  }
+  return fee || "N/A";
+};
+
 export default function CollegeDetail() {
   const params = useParams();
   const collegeIndex = parseInt(params.id || "0");
@@ -149,9 +156,7 @@ export default function CollegeDetail() {
                 <h2 className="text-2xl font-bold mb-4">Fee Structure</h2>
                 <div className="bg-background p-4 rounded-lg">
                   <p className="text-lg font-semibold">
-                    {typeof college.fee_structure === "object"
-                      ? Object.values(college.fee_structure)[0]
-                      : college.fee_structure}
+                    {getFeeDisplay(college.fee_structure)}
                   </p>
                   <p className="text-sm text-muted-foreground mt-2">
                     Annual fee for merit seats. Subject to change as per government regulations.

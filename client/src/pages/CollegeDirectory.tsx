@@ -37,6 +37,13 @@ export default function CollegeDirectory() {
     new Set(colleges.map((c) => c.location.district))
   ).sort();
 
+  const getFeeDisplay = (fee: any) => {
+    if (typeof fee === "object" && fee !== null) {
+      return fee.tuition_fee_per_year || Object.values(fee)[0] || "N/A";
+    }
+    return fee || "N/A";
+  };
+
   const filtered = colleges.filter((college) => {
     const matchesSearch = college.college_name
       .toLowerCase()
@@ -117,91 +124,86 @@ export default function CollegeDirectory() {
           {/* Colleges Grid */}
           <div className="grid gap-6">
             {filtered.map((college, index) => (
-              <Link key={index} href={`/colleges/${index}`}>
-                <Card className="p-6 hover:shadow-lg transition-all cursor-pointer border border-border">
-                  <div className="grid md:grid-cols-3 gap-6">
-                    {/* Left: College Info */}
-                    <div className="md:col-span-2">
-                      <h2 className="text-xl font-bold mb-2">
+              <Card key={index} className="p-6 hover:shadow-lg transition-all border border-border">
+                <div className="grid md:grid-cols-3 gap-6">
+                  {/* Left: College Info */}
+                  <div className="md:col-span-2">
+                    <Link href={`/colleges/${index}`}>
+                      <h2 className="text-xl font-bold mb-2 text-primary hover:underline cursor-pointer">
                         {college.college_name}
                       </h2>
-                      <div className="flex items-center gap-2 text-muted-foreground mb-4">
-                        <MapPin className="w-4 h-4" />
-                        <span>
-                          {college.location.city}, {college.location.district}
-                        </span>
-                      </div>
-
-                      <p className="text-sm text-muted-foreground mb-4">
-                        {college.value_prop}
-                      </p>
-
-                      <div className="grid grid-cols-2 gap-4 text-sm mb-4">
-                        <div>
-                          <span className="font-semibold">Academic Rating:</span>
-                          <p className="text-muted-foreground">
-                            {college.academics_rating}/5
-                          </p>
-                        </div>
-                        <div>
-                          <span className="font-semibold">Fee Structure:</span>
-                          <p className="text-muted-foreground">
-                            {typeof college.fee_structure === "object"
-                              ? Object.values(college.fee_structure)[0]
-                              : college.fee_structure}
-                          </p>
-                        </div>
-                      </div>
+                    </Link>
+                    <div className="flex items-center gap-2 text-muted-foreground mb-4">
+                      <MapPin className="w-4 h-4" />
+                      <span>
+                        {college.location.city}, {college.location.district}
+                      </span>
                     </div>
 
-                    {/* Right: Contact Info */}
-                    <div className="bg-card border border-border rounded-lg p-4">
-                      <h3 className="font-semibold mb-4">Contact</h3>
-                      <div className="space-y-3">
-                        <div>
-                          <p className="text-xs text-muted-foreground mb-1">
-                            Phone
-                          </p>
-                          <a
-                            href={`tel:${college.contact.phone}`}
-                            className="text-primary hover:underline flex items-center gap-2"
-                            onClick={(e) => e.stopPropagation()}
-                          >
-                            <Phone className="w-4 h-4" />
-                            {college.contact.phone}
-                          </a>
-                        </div>
-                        <div>
-                          <p className="text-xs text-muted-foreground mb-1">
-                            Email
-                          </p>
-                          <a
-                            href={`mailto:${college.contact.email}`}
-                            className="text-primary hover:underline text-sm break-all"
-                            onClick={(e) => e.stopPropagation()}
-                          >
-                            {college.contact.email}
-                          </a>
-                        </div>
-                        <div>
-                          <p className="text-xs text-muted-foreground mb-1">
-                            Website
-                          </p>
-                          <a
-                            href={college.website}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-primary hover:underline text-sm"
-                            onClick={(e) => e.stopPropagation()}
-                          >
-                            Visit Website
-                          </a>
-                        </div>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      {college.value_prop}
+                    </p>
+
+                    <div className="grid grid-cols-2 gap-4 text-sm mb-4">
+                      <div>
+                        <span className="font-semibold">Academic Rating:</span>
+                        <p className="text-muted-foreground">
+                          {college.academics_rating}/5
+                        </p>
+                      </div>
+                      <div>
+                        <span className="font-semibold">Fee Structure:</span>
+                        <p className="text-muted-foreground">
+                          {getFeeDisplay(college.fee_structure)}
+                        </p>
                       </div>
                     </div>
                   </div>
-                </Card>
-              </Link>
+
+                  {/* Right: Contact Info */}
+                  <div className="bg-card border border-border rounded-lg p-4">
+                    <h3 className="font-semibold mb-4">Contact</h3>
+                    <div className="space-y-3">
+                      <div>
+                        <p className="text-xs text-muted-foreground mb-1">
+                          Phone
+                        </p>
+                        <a
+                          href={`tel:${college.contact.phone}`}
+                          className="text-primary hover:underline flex items-center gap-2 text-sm"
+                        >
+                          <Phone className="w-4 h-4" />
+                          {college.contact.phone}
+                        </a>
+                      </div>
+                      <div>
+                        <p className="text-xs text-muted-foreground mb-1">
+                          Email
+                        </p>
+                        <a
+                          href={`mailto:${college.contact.email}`}
+                          className="text-primary hover:underline text-sm break-all"
+                        >
+                          {college.contact.email}
+                        </a>
+                      </div>
+                      <div>
+                        <p className="text-xs text-muted-foreground mb-1">
+                          Website
+                        </p>
+                        <a
+                          href={college.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-primary hover:underline text-sm"
+                        >
+                          Visit Website
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Card>
             ))}
           </div>
 
