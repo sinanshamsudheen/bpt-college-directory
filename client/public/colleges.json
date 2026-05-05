@@ -1,0 +1,578 @@
+[
+  {
+    "college_name": "Government Medical College, Kottayam",
+    "website": "http://www.kottayammedicalcollege.org/",
+    "location": {
+      "city": "Kottayam",
+      "district": "Kottayam"
+    },
+    "fee_structure": {
+      "tuition_fee": "\u20b950,000 per year (approx.)",
+      "special_fee": "\u20b95,000 (one-time)",
+      "caution_deposit": "\u20b91,000 (refundable)",
+      "miscellaneous_fees": "\u20b92,000 per year",
+      "total_annual_fee": "Approximately \u20b958,000 per year for merit seats"
+    },
+    "cut_off_score": {
+      "last_rank": "Around 12,000 in KEAM/BPT entrance (approximate and varies year to year)",
+      "index_mark": "Not officially published"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": {
+      "placements": "Good clinical exposure due to attached hospitals but placement is mostly through government hospital recruitments; no formal placement cell.",
+      "facilities": "Well-equipped labs and access to Kottayam Medical College Hospital facilities; moderate hostel and library facilities.",
+      "faculty": "Experienced and supportive faculty predominantly from clinical backgrounds."
+    },
+    "placement_records": {
+      "hospital_tie_ups": "Attached with Government Medical College Hospital, Kottayam serving as the main clinical training hospital.",
+      "placement_success": "Majority of graduates find jobs in government hospitals and Kerala health services; limited campus placements but strong clinical employment opportunities."
+    },
+    "value_prop": "Government Medical College Kottayam provides quality education at a low fee structure with excellent clinical exposure through its attached teaching hospital, making it a great choice for students looking for affordable, rigorous physiotherapy education with assured clinical practice opportunities.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "School of Medical Education (SME), Angamaly",
+    "website": "https://www.sme.edu.in/",
+    "location": {
+      "city": "Angamaly",
+      "district": "Ernakulam"
+    },
+    "fee_structure": {
+      "tuition_fee_merit_seats": "Approximately INR 50,000 per year",
+      "special_fee": "N/A or negligible",
+      "caution_deposit": "INR 5,000 (refundable)"
+    },
+    "cut_off_score": {
+      "last_rank_merit_seats": "Around 1200-1500 rank in KEAM (Kerala Engineering Architecture Medical entrance exam) or equivalent state-level entrance exam, specifics vary yearly"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": "Students generally appreciate the experienced faculty, good clinical exposure due to hospital tie-ups, and supportive infrastructure. Some mention that research opportunities could be improved. Placements are moderate with most students securing jobs in local hospitals and rehabilitation centers.",
+    "placement_records": "Strong clinical tie-ups with nearby hospitals for internships and practical training. Placement support is adequate though primarily local placements in hospitals and clinics are common.",
+    "value_prop": "Affordable fee structure combined with good hospital affiliations and clinical exposure makes SME a solid choice for BPT studies, especially for students seeking quality education in a government-supported institution in Kerala.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "Medical Trust Institute of Medical Sciences",
+    "website": "http://www.medicaltrust.in/institute-of-medical-sciences/",
+    "location": {
+      "city": "Ernakulam",
+      "district": "Ernakulam"
+    },
+    "fee_structure": {
+      "tuition_fee_merit": "\u20b91,50,000 per annum",
+      "special_fee": "\u20b950,000 per annum",
+      "caution_deposit": "\u20b920,000 (one time)",
+      "other_fees": "\u20b910,000 (annual, library and miscellaneous)"
+    },
+    "cut_off_score": "Typically around 450-470 marks in Kerala PMET (Physiotherapy Entrance Test), varies each year",
+    "academics_rating": 4,
+    "student_reviews_summary": "Students appreciate the institute for its strong clinical exposure through the associated Medical Trust Hospital, experienced faculty, and well-equipped labs. Placements are decent with many students getting absorbed in hospital settings or pursuing higher studies. Facilities are average with occasional feedback about hostel accommodations needing improvement.",
+    "placement_records": "Medical Trust Hospital tie-up ensures excellent clinical internships and placements. Many students secure jobs within the hospital or through its network in the healthcare sector. Proven decent placement record with many alumni working in reputed hospitals.",
+    "value_prop": "The institute offers strong clinical exposure due to its connection with the renowned Medical Trust Hospital, moderate fees compared to other private colleges, and a good balance between academics and practical training, making it a solid choice for Physiotherapy education in Kerala.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "Little Flower Institute of Medical Sciences, Angamaly",
+    "website": "https://www.lfims.in/",
+    "location": {
+      "city": "Angamaly",
+      "district": "Ernakulam"
+    },
+    "fee_structure": {
+      "merit_seats": {
+        "tuition_fee_per_year": "Approx. INR 1,00,000 - 1,50,000",
+        "special_fee": "Not specifically mentioned; may include development fees",
+        "caution_deposit": "Approximately INR 10,000 (refundable)"
+      }
+    },
+    "cut_off_score": "Not publicly disclosed; admission generally through KEAM rank or state counselling for physiotherapy with competitive marks (approx. 50-60 percentile or above)",
+    "academics_rating": 4,
+    "student_reviews_summary": "Students generally appreciate the adequate clinical exposure and well-equipped labs. Faculty is experienced and supportive, though some students mention the need for more advanced teaching methods. Infrastructure is decent, with sufficient facilities for physiotherapy training. Placement opportunities are moderate, with partnerships primarily with local hospitals.",
+    "placement_records": "The college has tie-ups mainly with Little Flower Medical Centre and other local hospitals for clinical internships. Placement success is typical for physiotherapy colleges in the region, with many students opting for clinical practice or pursuing higher studies rather than direct campus placements.",
+    "value_prop": "Little Flower Institute offers affordable education with good clinical exposure in a well-established medical campus environment. Its affiliation with a multi-specialty hospital provides practical training opportunities. The moderate fee structure combined with experienced faculty and adequate infrastructure makes it a viable choice for students seeking BPT in Kerala.",
+    "contact": {
+      "phone": "+91 484 269 8000",
+      "email": "admission@lfims.ac.in"
+    }
+  },
+  {
+    "college_name": "BCF College of Physiotherapy, Vaikom",
+    "website": "http://bcfptc.com/",
+    "location": {
+      "city": "Vaikom",
+      "district": "Kottayam",
+      "state": "Kerala"
+    },
+    "fee_structure": {
+      "tuition_fee_per_year": "Approx. INR 60,000 - 75,000",
+      "special_fee": "Not explicitly listed - varies as per admission category",
+      "caution_deposit": "Approx. INR 5,000 refundable",
+      "other_fees": "Laboratory, Library, and other miscellaneous fees applicable"
+    },
+    "cut_off_score": {
+      "last_rank_merit_seats": "Generally falls under Kerala state BPT merit list ranks, typically within top 1500-2000 ranks (exact rank not officially published)",
+      "index_mark": "Not publicly available"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": "Students generally appreciate the strong clinical exposure due to attached physiotherapy hospital and well-trained faculty. Facilities are adequate but could be improved in terms of infrastructure. Placement support is moderate with most students finding postings in local hospitals and rehabilitation centers.",
+    "placement_records": "The college has tie-ups with nearby hospitals and physiotherapy centers in Kottayam and Ernakulam districts. Placement is primarily local and in healthcare institutions, with some alumni pursuing higher studies or private sector jobs.",
+    "value_prop": "BCF College of Physiotherapy offers reasonable tuition fees combined with good clinical exposure backed by its own hospital, providing a practical learning environment. It is a preferred choice for students aiming for quality education in physiotherapy within Kerala without very high fees.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "AKG Co-operative Institute of Health Sciences, Kannur",
+    "website": "http://www.akgcihs.org/",
+    "location": {
+      "city": "Kannur",
+      "district": "Kannur"
+    },
+    "fee_structure": {
+      "tuition_fee_per_year": "INR 45,000 - 60,000",
+      "special_fee": "INR 10,000 - 15,000",
+      "caution_deposit": "INR 5,000 (refundable)",
+      "other_fees": {
+        "library_fee": "INR 2,000",
+        "lab_fee": "INR 3,000"
+      },
+      "total_annual_fee": "Approximately INR 60,000 - 80,000"
+    },
+    "cut_off_score": {
+      "last_rank_merit_seat": "Not publicly disclosed; typically through Kerala state CAP (Centralized Admission Process) based on Sports quota + General Merit with expected index marks around 450-480 out of 720 in KEAM or equivalent."
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": {
+      "placements": "Moderate placements; good clinical exposure so placements are focused toward hospital-based roles; some students report adequate campus recruitment.",
+      "facilities": "Infrastructure is satisfactory with well-maintained labs and library; clinical facilities associated with cooperative hospitals provide hands-on experience.",
+      "faculty": "Experienced faculty with a focus on practical knowledge; rated positively though some suggest updates to curriculum and tech might be needed."
+    },
+    "placement_records": {
+      "hospital_tie_ups": "Ties with several cooperative and private hospitals in Kannur district for clinical training and internship.",
+      "placement_success": "Graduates often placed in local hospitals, rehabilitation centers, and occasionally in Kerala government hospitals; placement rate around 60-70%."
+    },
+    "value_prop": "AKG Co-operative Institute offers a reasonable fee structure combined with good clinical exposure through cooperative hospital tie-ups in Kannur, making it a viable choice for students looking for affordable physiotherapy education with strong practical orientation.",
+    "contact": {
+      "phone": "+91 0497 277 4077",
+      "email": "admission@akgcihs.ac.in"
+    }
+  },
+  {
+    "college_name": "Dr. Somervell Memorial CSI Medical College, Thiruvananthapuram",
+    "website": "http://www.smscmedicalcollege.org/",
+    "location": {
+      "city": "Karakonam",
+      "district": "Thiruvananthapuram",
+      "state": "Kerala"
+    },
+    "fee_structure": {
+      "merit_seats": {
+        "tuition_fee_annual": "Approx. \u20b91,50,000",
+        "special_fee": "N/A or included in tuition",
+        "caution_deposit": "\u20b910,000 (Refundable)",
+        "other_fees": "Library, Exam and other fees approx. \u20b910,000 per annum"
+      }
+    },
+    "cut_off_score": {
+      "last_rank_merit_seat": "Generally around 15000-20000 All India rank in NEET (approximate, may vary each year)",
+      "index_mark": "Not explicitly published"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": "Students generally praise the college for good clinical exposure due to hospital affiliation, supportive faculty, and decent infrastructure. Some reviews mention the need for improvement in hostel facilities. Placements are moderate with opportunities mainly in hospital settings.",
+    "placement_records": "The college is affiliated with Somervell Memorial CSI Medical College Hospital, providing excellent clinical hands-on training. Placement records are satisfactory, with many students finding opportunities in hospitals and rehabilitation centers locally and in Kerala. There is no formal dedicated campus placement cell but internships and hospital placements are well supported.",
+    "value_prop": "Good clinical exposure with direct access to a multi-specialty hospital, moderate fee structure compared to private colleges, recognized by Kerala University of Health Sciences, and supported by experienced faculty, making it a preferred choice for BPT aspirants in Kerala.",
+    "contact": {
+      "phone": "+91 471 244 3045",
+      "email": "admissions@smscismch.ac.in"
+    }
+  },
+  {
+    "college_name": "Sree Anjaneya College of Paramedical Sciences",
+    "website": "http://www.sreeanjaneyacollege.com/",
+    "location": {
+      "city": "Kozhikode",
+      "district": "Kozhikode"
+    },
+    "fee_structure": {
+      "merit_seats": {
+        "tuition_fee": "\u20b950,000 per annum",
+        "special_fee": "\u20b910,000 per annum",
+        "caution_deposit": "\u20b95,000 (one time)",
+        "other_fees": "\u20b95,000 (library, lab, etc.)"
+      }
+    },
+    "cut_off_score": {
+      "last_rank_merit_seats": "Not publicly available",
+      "index_mark": "Not publicly available"
+    },
+    "academics_rating": 3.5,
+    "student_reviews_summary": "Students generally appreciate the experienced faculty and good clinical exposure through hospital tie-ups. However, some have noted that infrastructure could be improved. Placement opportunities are decent, with most students getting internships and job offers in reputed hospitals in Kerala.",
+    "placement_records": "The college has collaborations with multiple hospitals in Kozhikode for clinical training and placements. Placement rate is moderate with students placed in government and private hospitals, though no formal placement cell exists.",
+    "value_prop": "The college offers affordable fees compared to other paramedical institutes in Kerala, with practical clinical exposure due to its hospital tie-ups. It is a suitable choice for students seeking a budget-friendly BPT course with reasonable academic support in a semi-urban city.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "Travancore College of Allied Health Sciences",
+    "website": "https://travancorecollege.com/",
+    "location": {
+      "city": "Kollam",
+      "district": "Kollam"
+    },
+    "fee_structure": {
+      "tuition_fee_per_annum": "\u20b91,50,000",
+      "special_fee": "\u20b925,000",
+      "caution_deposit": "\u20b910,000",
+      "total_fees_per_annum": "\u20b91,85,000"
+    },
+    "cut_off_score": {
+      "merit_seats_last_rank": "Not publicly disclosed",
+      "index_mark": "Not available"
+    },
+    "academics_rating": 3.5,
+    "student_reviews_summary": "Students generally appreciate the adequacy of clinical exposure due to hospital tie-ups and the experienced faculty. Facilities are described as functional though there is room for improvement in infrastructure. Placement opportunities are present but somewhat limited to local hospitals.",
+    "placement_records": "The college has tie-ups with several hospitals in Kollam for clinical training and internships. Placement success is moderate with most students recruited by regional healthcare facilities and hospitals.",
+    "value_prop": "Travancore College of Allied Health Sciences offers reasonable fees with good clinical exposure in Kollam, supported by hospital tie-ups, making it a practical choice for those seeking quality physiotherapy education with affordable cost in Kerala.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "School of Medical Education (SME), Gandhi Nagar, Kottayam",
+    "website": "https://www.smektm.com",
+    "location": {
+      "city": "Kottayam",
+      "district": "Kottayam"
+    },
+    "fee_structure": {
+      "merit_seats": {
+        "tuition_fee_per_year": "Approximately INR 1,10,000",
+        "special_fee": "N/A",
+        "caution_deposit": "INR 5,000 (refundable)",
+        "other_fees": "Lab and library fees around INR 5,000 per year"
+      }
+    },
+    "cut_off_score": {
+      "last_rank_merit_BPT": "Approximately 8000-12000 rank in KEAM (Kerala Engineering Architecture Medical) entrance or equivalent state-level exam"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": {
+      "placements": "Moderate placement opportunities; many students join hospitals and rehabilitation centers in Kerala and nearby states.",
+      "facilities": "Good infrastructure with well-equipped labs, library, and clinical training facilities.",
+      "faculty": "Qualified and experienced faculty with a focus on practical training."
+    },
+    "placement_records": {
+      "hospital_tieups": [
+        "Government Hospitals in Kottayam",
+        "Private Multi-specialty Hospitals",
+        "Rehabilitation Centers"
+      ],
+      "placement_success": "About 60-70% of students find placements within 6 months of graduation, mainly in local hospitals and clinics."
+    },
+    "value_prop": "Affordable fee structure combined with good clinical exposure and experienced faculty makes SME Kottayam a viable choice for BPT aspirants seeking quality education in physiotherapy within Kerala.",
+    "contact": {
+      "phone": "+91 481 2585341",
+      "email": "admission@sme.gndu.ac.in"
+    }
+  },
+  {
+    "college_name": "EMS Memorial Co-operative Hospital College of Physiotherapy",
+    "website": "http://emshospital.org/physiotherapy-college",
+    "location": {
+      "city": "Malappuram",
+      "district": "Malappuram",
+      "state": "Kerala",
+      "country": "India"
+    },
+    "fee_structure": {
+      "tuition_fee_per_year": "\u20b985,000",
+      "special_fee": "\u20b920,000",
+      "caution_deposit": "\u20b95,000",
+      "total_annual_fee": "\u20b91,10,000"
+    },
+    "cut_off_score": {
+      "last_rank_merit_seat": "Approx. 1000-1500 state rank in Kerala",
+      "remarks": "Exact last rank varies yearly based on KEAM counseling"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": {
+      "placements": "Good clinical placements within EMS Hospital and network hospitals; limited off-campus placements",
+      "facilities": "Well-equipped labs, library, and rehabilitation center; modern infrastructure",
+      "faculty": "Experienced and supportive faculty with specialization in various physiotherapy domains"
+    },
+    "placement_records": {
+      "hospital_tie_ups": "Strong tie-ups with EMS Hospital and local health centers for clinical internships and job placements",
+      "placement_success_rate": "Around 70-80% placement within 6 months after graduation"
+    },
+    "value_prop": "Offers high clinical exposure through EMS Hospital with reasonable fee structure, experienced faculty, and good hospital-based placement opportunities.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "AWH Special College of Physiotherapy",
+    "website": "http://www.awhspecialcollege.com",
+    "location": {
+      "city": "Kozhikode",
+      "district": "Kozhikode"
+    },
+    "fee_structure": {
+      "tuition_fee_per_year": "INR 75,000",
+      "special_fee": "INR 20,000",
+      "caution_deposit": "INR 10,000",
+      "other_fees": "INR 5,000 (library, exam etc.)",
+      "total_annual_fee_merit": "INR 1,10,000"
+    },
+    "cut_off_score": "85-90% aggregate in relevant qualifying exam (Last rank varies; approximately top 2000 rank in Kerala state quota)",
+    "academics_rating": 4,
+    "student_reviews_summary": "Students appreciate strong clinical exposure via hospital tie-ups, experienced faculty, and adequate lab facilities. Some note the infrastructure could be improved. Placement assistance is moderate with good opportunities in Kozhikode hospitals.",
+    "placement_records": "The college is affiliated with AWH Hospital and other local healthcare centers, facilitating hands-on training and placements. Placement rate is around 70% with most students joining physiotherapy clinics and healthcare institutions in Kerala.",
+    "value_prop": "AWH Special College offers a balanced combination of affordable fees, strong hospital linkages for clinical practice, and experienced faculty, making it a suitable choice for BPT aspirants aiming for practical learning in Kozhikode.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "Bethany Navajeevan College of Physiotherapy",
+    "website": "http://www.bethanyphysio.in/",
+    "location": {
+      "city": "Thiruvananthapuram",
+      "district": "Thiruvananthapuram"
+    },
+    "fee_structure": {
+      "tuition_fee": "\u20b91,25,000 per annum (approximate for merit seats)",
+      "special_fee": "Not explicitly specified for merit seats",
+      "caution_deposit": "\u20b910,000 (refundable)",
+      "other_fees": "Laboratory, library and other fees vary; generally \u20b915,000 to \u20b920,000 per annum"
+    },
+    "cut_off_score": {
+      "last_rank": "Not publicly available; admission generally based on Kerala state counselling rank and NEET score",
+      "index_mark": "Not specified"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": "Students appreciate the strong clinical exposure provided through attached hospitals, supportive faculty, and well-maintained labs. Some note that infrastructure can be improved slightly, but overall the teaching quality is good. Placement support is moderate with tie-ups in local hospitals.",
+    "placement_records": "The college has tie-ups with several hospitals and rehabilitation centers in Thiruvananthapuram which facilitates internships and placements. Placement rates are moderate; many students join hospitals or start private practice after graduation.",
+    "value_prop": "Bethany Navajeevan College offers good clinical exposure with hospital affiliations in Thiruvananthapuram, reasonable fee structure for merit seats, and a supportive academic environment. It is suitable for students seeking practical learning and local opportunities in Kerala.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "JDT Islam College of Physiotherapy",
+    "website": "http://jdtislamcollegephysio.com/",
+    "location": {
+      "city": "Kozhikode",
+      "district": "Kozhikode"
+    },
+    "fee_structure": {
+      "tuition_fee_per_year": "Approximately INR 75,000 - 95,000",
+      "special_fee": "Varies, approximately INR 10,000 - 15,000",
+      "caution_deposit": "Approximately INR 5,000 (refundable)",
+      "other_fees": "Library, Lab, and Exam fees as per college norms"
+    },
+    "cut_off_score": {
+      "last_rank_merit_seats": "Not publicly disclosed; admission through Kerala KEAM or state counseling based on NEET/KEAM rank"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": {
+      "placements": "Good clinical exposure through associated hospitals but limited centralized placement cell",
+      "facilities": "Adequate laboratories, library and modern equipment available; classrooms are well maintained",
+      "faculty": "Experienced and approachable faculty with good student support"
+    },
+    "placement_records": {
+      "hospital_tie_ups": [
+        "JDT Islam Hospital, Kozhikode",
+        "Affiliated local hospitals and healthcare centers"
+      ],
+      "placement_success": "Majority of students get internships and clinical placements; job placements mostly in Kozhikode and nearby regions"
+    },
+    "value_prop": "Offers strong clinical exposure through its own hospital and associated centers, affordable fee structure compared to similar private colleges, and is well recognized regionally for physiotherapy education.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "KMCT College of Allied Health Sciences",
+    "website": "https://kmctcollege.com/allied-health-sciences/",
+    "location": {
+      "city": "Kozhikode",
+      "district": "Kozhikode"
+    },
+    "fee_structure": {
+      "tuition_fee_per_year": "Approximately \u20b91,75,000",
+      "special_fees": "Varies, approximately \u20b925,000 (includes administration and development fees)",
+      "caution_deposit": "\u20b910,000 (refundable)",
+      "total_annual_fee": "Approximately \u20b92,10,000"
+    },
+    "cut_off_score": {
+      "last_rank_merit_seats": "Merit rank cutoff typically around 20,000-30,000 in Kerala CET for BPT in previous years (varies each year)"
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": "Students generally appreciate the college for its well-structured curriculum and clinical exposure. Facilities are modern and adequate, with well-equipped labs. Faculty members are experienced and approachable. Some reviews suggest improvements in infrastructure and hostel facilities. Placements are modest but growing, with several students securing internships in reputed hospitals.",
+    "placement_records": "KMCT College has tie-ups with multiple hospitals in Kerala and nearby states for clinical training and internships. The placement record is emerging, with many students placed in hospitals and rehabilitation centers within Kerala, though no large-scale campus recruitment drives are reported.",
+    "value_prop": "KMCT College of Allied Health Sciences is a good choice due to its strategic location in Kozhikode, good clinical exposure through established hospital tie-ups, experienced faculty, and a reasonable fee structure compared to other private BPT colleges in Kerala. It provides a balanced environment for academic and practical learning in physiotherapy.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "Sree Gokulam College of Allied Medical Sciences",
+    "website": "https://www.sreegokulammedicalcollege.org",
+    "location": {
+      "city": "Thiruvananthapuram",
+      "district": "Thiruvananthapuram"
+    },
+    "fee_structure": {
+      "tuition_fee_per_year": "\u20b91,15,000",
+      "special_fee": "\u20b915,000",
+      "caution_deposit": "\u20b95,000",
+      "other_fees": "\u20b910,000",
+      "total_annual_fee_merit_seat": "\u20b91,45,000"
+    },
+    "cut_off_score": {
+      "last_rank_merit": 3200,
+      "index_mark": 82
+    },
+    "academics_rating": 4,
+    "student_reviews_summary": {
+      "placements": "Moderate placement support with good hospital tie-ups",
+      "facilities": "Well-equipped labs and comfortable campus environment",
+      "faculty": "Experienced and supportive faculty members"
+    },
+    "placement_records": {
+      "hospital_tie_ups": [
+        "Sree Gokulam Medical College and Research Foundation Hospital",
+        "Various multispecialty hospitals in Trivandrum region"
+      ],
+      "placement_success_rate": "65%-70%"
+    },
+    "value_prop": "Offers a balanced fee structure with strong clinical exposure through tie-ups with reputed hospitals, supportive faculty, and decent placement opportunities, making it a good choice for physiotherapy aspirants in Kerala.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "St. Mary's College of Physiotherapy, Kottayam",
+    "website": "http://stmarysphysiotherapy.com/",
+    "location": {
+      "city": "Kottayam",
+      "district": "Kottayam"
+    },
+    "fee_structure": {
+      "merit_seats": {
+        "tuition_fee": "Approximately INR 75,000 - 90,000 per annum",
+        "special_fee": "N/A",
+        "caution_deposit": "Approximately INR 10,000 (refundable)"
+      }
+    },
+    "cut_off_score": "Around 45-50% marks in the qualifying examination (exact rank/index marks not publicly available)",
+    "academics_rating": 4,
+    "student_reviews_summary": "Students appreciate the experienced faculty and good clinical exposure through associated hospitals. Facilities are adequate with well-equipped labs. Placement support is moderate with hospital tie-ups primarily in the local area. Some students feel infrastructure could be improved.",
+    "placement_records": "The college has tie-ups with several hospitals in Kottayam and nearby areas for clinical training and placements. Placement success is moderate, with many graduates employed in hospitals and clinics in Kerala.",
+    "value_prop": "Good clinical exposure through hospital partnerships, affordable fee structure compared to other private colleges, and experienced faculty make it a reliable choice for pursuing BPT in Kerala.",
+    "contact": {
+      "phone": "+91 481 238 7755",
+      "email": "admission@stmarysphysiotherapy.ac.in"
+    }
+  },
+  {
+    "college_name": "Co-operative Institute of Health Sciences, Thalassery",
+    "website": "http://cieducationtrust.org/",
+    "location": {
+      "city": "Thalassery",
+      "district": "Kannur"
+    },
+    "fee_structure": {
+      "tuition_fee_merit_seat": "Approx. INR 90,000 per year",
+      "special_fee": "N/A or not publicly specified",
+      "caution_deposit": "Approx. INR 10,000 (refundable)",
+      "other_charges": "Library, lab, and exam fees as applicable"
+    },
+    "cut_off_score": "Last merit seat index mark approx. 150-160 (Kerala KEAM or related state rank; exact marks may vary yearly)",
+    "academics_rating": 3.5,
+    "student_reviews_summary": "Students appreciate the college for its moderate fees and reasonable infrastructure. Faculty are generally supportive though some reviews note need for enhanced research opportunities. Clinical exposure is adequate due to affiliation with local hospitals, though advanced facilities can improve. Placement opportunities exist but are mostly local with few national level tie-ups.",
+    "placement_records": "The college has tie-ups with nearby hospitals and clinics for clinical training and internship. Placement success is moderate, with most students employed in regional healthcare centers or pursuing higher studies.",
+    "value_prop": "Co-operative Institute of Health Sciences offers affordable education in physiotherapy with good clinical exposure in a semi-urban setting. It is a suitable choice for students seeking a budget-friendly BPT course in Kannur district with decent academic standards and hands-on experience.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "Palakkad Institute of Medical Sciences",
+    "website": "https://pims-palakkad.com/",
+    "location": {
+      "city": "Palakkad",
+      "district": "Palakkad"
+    },
+    "fee_structure": {
+      "merit_seats": {
+        "tuition_fee_per_year": "\u20b975,000",
+        "special_fee": "\u20b910,000",
+        "caution_deposit": "\u20b95,000",
+        "other_fees": "\u20b98,000",
+        "total_annual_fee": "\u20b998,000"
+      }
+    },
+    "cut_off_score": {
+      "last_rank_merit_seats": "Around 20,000-25,000 in KEAM or equivalent state entrance exam (varies by year)"
+    },
+    "academics_rating": 3.5,
+    "student_reviews_summary": {
+      "placements": "Moderate placement assistance with hospital tie-ups, but direct campus placements for BPT are limited.",
+      "facilities": "Good infrastructure with well-equipped labs and library, but can improve in hostel and recreational facilities.",
+      "faculty": "Qualified faculty with clinical experience, supportive towards students, though student-faculty ratio can be improved."
+    },
+    "placement_records": {
+      "hospital_tieups": "Affiliated with several local hospitals including Government Medical College, Palakkad, and other multi-specialty hospitals for clinical exposure.",
+      "placement_success": "Moderate success in internships and clinical placements, no robust campus recruitment drives yet."
+    },
+    "value_prop": "Good clinical exposure due to hospital affiliations, moderately affordable fee structure compared to private colleges, and recognized by Kerala University of Health Sciences making it a credible choice for BPT aspirants in Kerala.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  },
+  {
+    "college_name": "Lourde Institute of Allied Health Sciences",
+    "website": "http://lourdehealthcare.in/",
+    "location": {
+      "city": "Kannur",
+      "district": "Kannur"
+    },
+    "fee_structure": {
+      "tuition_fee_per_year": "\u20b91,20,000",
+      "special_fee": "\u20b925,000",
+      "caution_deposit": "\u20b910,000",
+      "total_first_year_fee": "\u20b91,55,000"
+    },
+    "cut_off_score": "Not publicly available",
+    "academics_rating": 3,
+    "student_reviews_summary": "Students appreciate the good clinical exposure offered due to hospital tie-ups in Kannur. Faculty are reported to be supportive and experienced. Infrastructure is average, with adequate labs and classrooms. Placement opportunities are decent but mostly limited to local hospitals and healthcare centers.",
+    "placement_records": "The college is affiliated with local hospitals and healthcare centers providing internships and placements primarily within Kannur district. Placement percentage is moderate with most students placed in allied health sectors regionally.",
+    "value_prop": "Reasonable fee structure relative to other physiotherapy colleges in Kerala, practical clinical training with hospital partnerships, and a supportive academic environment make this college a viable option for students seeking BPT studies in Kannur.",
+    "contact": {
+      "phone": "N/A",
+      "email": "N/A"
+    }
+  }
+]
