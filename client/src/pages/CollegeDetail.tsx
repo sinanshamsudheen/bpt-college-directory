@@ -17,9 +17,10 @@ interface College {
   value_prop: string;
 }
 
-const getFeeDisplay = (fee: any) => {
+const getFeeDisplay = (fee: any): string => {
   if (typeof fee === "object" && fee !== null) {
-    return fee.tuition_fee_per_year || Object.values(fee)[0] || "N/A";
+    const val = fee.tuition_fee_per_year ?? fee.tuition_fee ?? fee.tuition_fee_merit_seats ?? fee.tuition_fee_merit ?? Object.values(fee)[0];
+    return typeof val === "object" ? getFeeDisplay(val) : val || "N/A";
   }
   return fee || "N/A";
 };
@@ -143,8 +144,8 @@ export default function CollegeDetail() {
                       Cut-off Score
                     </p>
                     <p className="text-lg">
-                      {typeof college.cut_off_score === "object"
-                        ? Object.values(college.cut_off_score)[0]
+                      {typeof college.cut_off_score === "object" && college.cut_off_score !== null
+                        ? String(Object.values(college.cut_off_score)[0])
                         : college.cut_off_score}
                     </p>
                   </div>
@@ -167,17 +168,33 @@ export default function CollegeDetail() {
               {/* Student Reviews */}
               <Card className="p-6 border border-border">
                 <h2 className="text-2xl font-bold mb-4">Student Reviews</h2>
-                <p className="text-muted-foreground">
-                  {college.student_reviews_summary}
-                </p>
+                {typeof college.student_reviews_summary === "object" && college.student_reviews_summary !== null ? (
+                  <ul className="space-y-2">
+                    {Object.entries(college.student_reviews_summary).map(([key, val]) => (
+                      <li key={key} className="text-muted-foreground">
+                        <span className="font-semibold capitalize">{key}: </span>{String(val)}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-muted-foreground">{college.student_reviews_summary}</p>
+                )}
               </Card>
 
               {/* Placement Records */}
               <Card className="p-6 border border-border">
                 <h2 className="text-2xl font-bold mb-4">Placement Records</h2>
-                <p className="text-muted-foreground">
-                  {college.placement_records}
-                </p>
+                {typeof college.placement_records === "object" && college.placement_records !== null ? (
+                  <ul className="space-y-2">
+                    {Object.entries(college.placement_records).map(([key, val]) => (
+                      <li key={key} className="text-muted-foreground">
+                        <span className="font-semibold capitalize">{key.replace(/_/g, " ")}: </span>{String(val)}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-muted-foreground">{college.placement_records}</p>
+                )}
               </Card>
             </div>
 

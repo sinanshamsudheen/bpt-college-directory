@@ -37,9 +37,10 @@ export default function CollegeDirectory() {
     new Set(colleges.map((c) => c.location.district))
   ).sort();
 
-  const getFeeDisplay = (fee: any) => {
+  const getFeeDisplay = (fee: any): string => {
     if (typeof fee === "object" && fee !== null) {
-      return fee.tuition_fee_per_year || Object.values(fee)[0] || "N/A";
+      const val = fee.tuition_fee_per_year ?? fee.tuition_fee ?? fee.tuition_fee_merit_seats ?? fee.tuition_fee_merit ?? Object.values(fee)[0];
+      return typeof val === "object" ? getFeeDisplay(val) : val || "N/A";
     }
     return fee || "N/A";
   };
