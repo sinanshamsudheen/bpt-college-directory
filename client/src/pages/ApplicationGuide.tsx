@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "wouter";
-import { GraduationCap, CheckCircle, AlertCircle } from "lucide-react";
+import { GraduationCap, CheckCircle, AlertCircle, BookOpen, Briefcase } from "lucide-react";
 
 export default function ApplicationGuide() {
   return (
@@ -36,6 +36,34 @@ export default function ApplicationGuide() {
           <p className="text-lg text-muted-foreground mb-12">
             Step-by-step guide to apply for BPT courses in Kerala through the LBS Centre for Science & Technology
           </p>
+
+          {/* About BPT */}
+          <Card className="p-6 mb-8 border border-border">
+            <div className="flex gap-4">
+              <BookOpen className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
+              <div>
+                <h3 className="font-bold mb-3 text-lg">About the BPT Program</h3>
+                <div className="grid md:grid-cols-2 gap-4 text-sm text-muted-foreground">
+                  <div>
+                    <p className="font-semibold text-foreground mb-1">Duration</p>
+                    <p>4.5 years (4 years academic + 6-month compulsory internship)</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground mb-1">Degree Awarded</p>
+                    <p>Bachelor of Physiotherapy (BPT) by Kerala University of Health Sciences (KUHS), Thrissur</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground mb-1">Regulatory Bodies</p>
+                    <p>KUHS + Kerala Para-Medical Council (KPMC) for registration to practice</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground mb-1">Standard Intake</p>
+                    <p>30 seats per college. All colleges in Kerala are affiliated to KUHS.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Card>
 
           {/* Key Information */}
           <Card className="p-6 mb-8 border border-primary/20 bg-primary/5">
@@ -305,6 +333,69 @@ export default function ApplicationGuide() {
             </ul>
           </Card>
 
+          {/* Scholarships */}
+          <Card className="p-6 mt-8 border border-border">
+            <h2 className="text-2xl font-bold mb-4">Scholarships Available</h2>
+            <ul className="space-y-3 text-muted-foreground">
+              <li className="flex gap-3">
+                <span className="text-primary flex-shrink-0 font-bold">DC</span>
+                <span><strong className="text-foreground">DC Scholarship</strong> — for Kerala domicile students in private self-financing colleges. Apply through the District Collectorate.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary flex-shrink-0 font-bold">SC/ST</span>
+                <span><strong className="text-foreground">SC/ST Scholarship</strong> — government colleges nearly free. Significant fee concession in private colleges. Apply through the SC/ST Development Department.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary flex-shrink-0 font-bold">OBC</span>
+                <span><strong className="text-foreground">OBC Post-Matric Scholarship</strong> — for OBC students from Kerala. Apply through the Backward Communities Development Department.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary flex-shrink-0 font-bold">MIN</span>
+                <span><strong className="text-foreground">Minority Scholarships</strong> — available for Muslim and Christian minority students in eligible institutions. Inquire directly with the college.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="text-primary flex-shrink-0 font-bold">COL</span>
+                <span><strong className="text-foreground">College Merit Scholarships</strong> — individual colleges may offer merit-based fee concessions. Inquire directly with the admission office.</span>
+              </li>
+            </ul>
+          </Card>
+
+          {/* Career Paths */}
+          <Card className="p-6 mt-8 border border-border bg-primary/5">
+            <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
+              <Briefcase className="w-6 h-6 text-primary" />
+              Career Paths After BPT
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6 text-sm text-muted-foreground">
+              <div>
+                <h3 className="font-semibold text-foreground mb-2">Clinical Practice</h3>
+                <ul className="space-y-1">
+                  <li>• Hospital physiotherapist (government / private)</li>
+                  <li>• Sports physiotherapy (IPL teams, national academies)</li>
+                  <li>• Rehabilitation centres and old age homes</li>
+                  <li>• Community health / NGOs</li>
+                  <li>• Armed forces (SSC physiotherapist entry)</li>
+                  <li>• Entrepreneurship: own clinic</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-foreground mb-2">International Opportunities</h3>
+                <ul className="space-y-1">
+                  <li>• <strong>UK</strong> — HCPC registration</li>
+                  <li>• <strong>Australia</strong> — AHPRA registration</li>
+                  <li>• <strong>Canada</strong> — Provincial PT licensing</li>
+                  <li>• <strong>Gulf</strong> — DHA / HAAD / SCFHS licensing</li>
+                </ul>
+                <h3 className="font-semibold text-foreground mb-2 mt-4">Post-Graduation (MPT)</h3>
+                <ul className="space-y-1">
+                  <li>• MPT from KUHS / AIIMS / CMC Vellore</li>
+                  <li>• MPT abroad (UK, Australia, Canada)</li>
+                  <li>• PhD in Physiotherapy</li>
+                </ul>
+              </div>
+            </div>
+          </Card>
+
           {/* Call to Action */}
           <div className="mt-12 text-center">
             <p className="text-muted-foreground mb-6">
@@ -323,6 +414,7 @@ export default function ApplicationGuide() {
       <footer className="border-t border-border bg-card py-8 mt-12">
         <div className="container text-center text-sm text-muted-foreground">
           <p>Kerala BPT College Directory © 2026. Information based on LBS Centre regulations and official college data.</p>
+          <p className="mt-1">Made with ♥ by <a href="https://instagram.com/s1nahn" target="_blank" rel="noopener noreferrer" className="hover:underline">Sinan</a></p>
         </div>
       </footer>
     </div>

@@ -9,11 +9,13 @@ interface College {
   college_name: string;
   website: string;
   location: { city: string; district: string };
+  college_type?: string;
   fee_structure: any;
-  cut_off_score: any;
+  cut_off_score?: any;
+  admission_info?: string;
   academics_rating: number;
-  student_reviews_summary: string;
-  placement_records: string;
+  student_reviews_summary: any;
+  placement_records: any;
   contact: { phone: string; email: string };
   value_prop: string;
 }
@@ -39,7 +41,7 @@ export default function CollegeDirectory() {
 
   const getFeeDisplay = (fee: any): string => {
     if (typeof fee === "object" && fee !== null) {
-      const val = fee.tuition_fee_per_year ?? fee.tuition_fee ?? fee.tuition_fee_merit_seats ?? fee.tuition_fee_merit ?? Object.values(fee)[0];
+      const val = fee.annual_fee_merit ?? fee.tuition_fee_per_year ?? fee.tuition_fee ?? fee.tuition_fee_merit_seats ?? fee.tuition_fee_merit ?? Object.values(fee)[0];
       return typeof val === "object" ? getFeeDisplay(val) : val || "N/A";
     }
     return fee || "N/A";
@@ -134,11 +136,18 @@ export default function CollegeDirectory() {
                         {college.college_name}
                       </h2>
                     </Link>
-                    <div className="flex items-center gap-2 text-muted-foreground mb-4">
-                      <MapPin className="w-4 h-4" />
-                      <span>
-                        {college.location.city}, {college.location.district}
-                      </span>
+                    <div className="flex flex-wrap items-center gap-2 text-muted-foreground mb-3">
+                      <div className="flex items-center gap-1">
+                        <MapPin className="w-4 h-4" />
+                        <span>
+                          {college.location.city}, {college.location.district}
+                        </span>
+                      </div>
+                      {college.college_type && (
+                        <span className="text-xs bg-primary/10 text-primary px-2 py-0.5 rounded font-medium">
+                          {college.college_type}
+                        </span>
+                      )}
                     </div>
 
                     <p className="text-sm text-muted-foreground mb-4">
@@ -222,6 +231,7 @@ export default function CollegeDirectory() {
       <footer className="border-t border-border bg-card py-8 mt-12">
         <div className="container text-center text-sm text-muted-foreground">
           <p>Kerala BPT College Directory © 2026. Information based on LBS Centre regulations and official college data.</p>
+          <p className="mt-1">Made with ♥ by <a href="https://instagram.com/s1nahn" target="_blank" rel="noopener noreferrer" className="hover:underline">Sinan</a></p>
         </div>
       </footer>
     </div>

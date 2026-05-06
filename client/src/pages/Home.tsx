@@ -120,6 +120,7 @@ export default function Home() {
       <footer className="border-t border-border bg-card py-8">
         <div className="container text-center text-sm text-muted-foreground">
           <p>Kerala BPT College Directory © 2026. Information based on LBS Centre regulations and official college data.</p>
+          <p className="mt-1">Made with ♥ by <a href="https://instagram.com/s1nahn" target="_blank" rel="noopener noreferrer" className="hover:underline">Sinan</a></p>
         </div>
       </footer>
     </div>
